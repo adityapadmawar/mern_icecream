@@ -1,24 +1,40 @@
-Check Node
+1.Check Node
 ### `node -v`
 
-To create a react application
+2.To create a react application
 ### `npx create-react-app mern-icecream-company`
 
-Next
+3.Next
 ### `cd mern-icecream-company`
 ### `npm start`
 
 ### `cd mern-icecream-company`
 ### `mkdir backend`
 
-Inside the backend directory
+4.Inside the backend directory
 ### `npm init -y`
 ### `npm install express cors mongoose env`
 ### `npm install -g nodemon`
 
-In the project directory, you can run:
+5. .env file
+This file has the mongoDB Atlas cluster id and password
 
-### `npm start`
+6.Inside the backend folder run:
+### `nodemon server`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+7.Run these commands in the folder where project main file exists:
+### `npm install bootstrap`
+### `npm install react-router-dom`
+
+REACT for Frontend
+*We use react components to tell react what we want to see on the screen
+
+MongoDB Atlas for DataBase
+*Create a cluster
+*Connect to the Application
+*Input the local IP address
+*Create a DB user
+
+
+
+Open [http://localhost:3000](http://localhost:3000) to view project in the browser.
